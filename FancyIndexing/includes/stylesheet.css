@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+ font-family: 'Verdana Pro';
+ src: url('/FancyIndexing/fonts/Verdana Pro.eot');
+ src: url('/FancyIndexing/fonts/Verdana Pro.eot?#iefix') format('embedded-opentype'),
+      url('/FancyIndexing/fonts/Verdana Pro.woff2') format('woff2'),
+      url('/FancyIndexing/fonts/Verdana Pro.woff') format('woff'),
+      url('/FancyIndexing/fonts/Verdana Pro.svg#verdana_proregular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+ font-display: block;
+}
+
+@font-face {
+ font-family: 'Verdana Pro';
+ src: url('/FancyIndexing/fonts/Verdana Pro Bold.eot');
+ src: url('/FancyIndexing/fonts/Verdana Pro Bold.eot?#iefix') format('embedded-opentype'),
+      url('/FancyIndexing/fonts/Verdana Pro Bold.woff2') format('woff2'),
+      url('/FancyIndexing/fonts/Verdana Pro Bold.woff') format('woff'),
+      url('/FancyIndexing/fonts/Verdana Pro Bold.svg#verdanabold') format('svg');
+ font-weight: bold;
+ font-style: normal;
+ font-display: block;
+}
+
+html, /* Font Hacks */
+body,
+table {
+ -webkit-font-smoothing: antialiased;
+ -moz-font-smoothing: unset;
+ -moz-osx-font-smoothing: grayscale;
+ -webkit-backface-visibility: hidden;
+ -moz-backface-visibility: hidden;
+ backface-visibility: hidden;
+ text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+ height: 100%;
+ margin: 0px;
+ background-color: #000066;
+ background-image: url('/FancyIndexing/gfx/bg.png');
+ background-repeat: repeat;
+ color: #000022;
+ -webkit-text-stroke: 0.15px #000022; 
+ font-family: Verdana Pro;
+ font-size: 13px;
+}
+
+a {
+ color: #000022;
+ text-decoration: none;
+}
+a:hover {
+ color: #000066;
+}
+
+#shadow {
+ color: #f0f0f0;
+ text-shadow: #444444 2px 2px 2px;
+}
+
+table#list {
+ opacity: .75;
+ border: 1px solid black;
+ -webkit-text-stroke: 0.15px #000000; 
+ border-spacing: 0px;
+ padding: 0px;
+ margin-top: 0px;
+ margin-left: auto;
+ margin-right: auto;
+}
+table#list td {
+ padding: 0px;
+ background-color: #f0f0f0;
+ color: #f0f0f0;
+}
+table#list td a {
+ display: block;
+ color: #000000;
+ -webkit-text-stroke: .15px #000000;
+ background-color: #f0f0f0;
+ text-decoration: none;
+ padding-top: 2px;
+ padding-bottom: 2px;
+}
+table#list td a:hover {
+ background-color: #550000;
+ color: #f0f0f0;
+ -webkit-text-stroke: .15px #660066;
+}
+
+#list {
+ padding-left: 2px;
+ padding-right: 2px;
+ margin-top: 1px;
+ margin-bottom: 0px;
+}
+
+img#icon {
+ vertical-align: middle;
+ margin-top: -4px;
+ margin-bottom: -1px;
+ margin-right: 2px;
+ margin-left: 0px;
+}
+
+#breadcrumbs {
+ margin-left: 10px;
+ margin-right: 10px;
+ padding: 1px;
+ padding-left: 8px;
+ padding-right: 8px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border: 1px solid black;
+ border-bottom: 1px solid #000011;
+ background-color: #000011;
+ color: #f0f0f0;
+}
+
+.name-size {
+ background-color: #000011;
+ border-bottom: 1px solid #000011;
+ padding-top: 0px;
+ padding-bottom: 1px;
+ font-weight: 500;
+}
